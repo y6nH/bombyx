@@ -1,0 +1,22 @@
+{
+  "name": "bombyx",
+  "displayName": "Bombyx",
+  "description": "A silky dark colour scheme",
+  "version": "0.1.0",
+  "publisher": "y6nH",
+  "engines": {
+    "vscode": "^1.23.0"
+  },
+  "categories": [
+    "Themes"
+  ],
+  "contributes": {
+    "themes": [
+      {
+        "label": "Bombyx",
+        "uiTheme": "vs-dark",
+        "path": "./themes/Bombyx.color-theme.json"
+      }
+    ]
+  }
+}
