@@ -10,4 +10,4 @@ To install, make a new folder inside `~/.vscode/extensions/`, and copy in the fi
 
 ## Concfg for Windows command line
 
-To get the Windows CMD and Powershell windows styled with Bombyx colors, install [Concfg](https://github.com/lukesampson/concfg) and (using the file from the concfg folder in this project) run `concfg import Bombyx.json`.
+To get the Windows CMD and Powershell windows styled with Bombyx colors, install [Concfg](https://github.com/lukesampson/concfg) and run `concfg import https://raw.githubusercontent.com/y6nH/bombyx/master/concfg/Bombyx.json`.
