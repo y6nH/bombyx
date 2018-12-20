@@ -7,3 +7,7 @@
 ## [0.1.1]
 
 - Added README and CHANGELOG to the vscode theme.
+
+## [0.1.2]
+
+- Found an unstyled dark grey.

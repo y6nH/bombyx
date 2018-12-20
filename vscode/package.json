@@ -2,8 +2,11 @@
   "name": "bombyx",
   "displayName": "Bombyx",
   "description": "A silky dark colour scheme",
-  "icon": "bombyx.png",
-  "version": "0.1.1",
+  "icon": "vscode/bombyx.png",
+  "galleryBanner": {
+    "color": "#272a2b"
+  },
+  "version": "0.1.2",
   "publisher": "y6nH",
   "author": {
     "name": "Hugh (y6nH)"
