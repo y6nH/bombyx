@@ -2,7 +2,7 @@
   "name": "bombyx",
   "displayName": "Bombyx",
   "description": "A silky dark colour scheme",
-  "icon": "vscode/bombyx.png",
+  "icon": "bombyx.png",
   "galleryBanner": {
     "color": "#272a2b"
   },
