@@ -10,7 +10,9 @@ It's based around five hue values: 43° (yellow / brown), 73° (green / olive), 
 
 ## Visual Studio Code
 
-To install, make a new folder inside `~/.vscode/extensions/`, and copy in the file `vscode/themes/Bombyx.color-theme.json` from this project. Restart VSCode, and it should appear in your Color Theme list.
+Install from [Visual Studio Marketplace](https://marketplace.visualstudio.com/items?itemName=y6nH.bombyx).
+
+To install from source, make a new folder inside `~/.vscode/extensions/`, and copy in the file `vscode/themes/Bombyx.color-theme.json` from this project. Restart VSCode, and it should appear in your Color Theme list.
 
 ## Concfg for Windows command line
 

@@ -2,8 +2,16 @@
   "name": "bombyx",
   "displayName": "Bombyx",
   "description": "A silky dark colour scheme",
-  "version": "0.1.0",
+  "icon": "bombyx.png",
+  "version": "0.1.1",
   "publisher": "y6nH",
+  "author": {
+    "name": "Hugh (y6nH)"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/y6nH/bombyx"
+  },
   "engines": {
     "vscode": "^1.23.0"
   },
