@@ -27,6 +27,11 @@
         "label": "Bombyx",
         "uiTheme": "vs-dark",
         "path": "./themes/Bombyx.color-theme.json"
+      },
+      {
+        "label": "Bombyx Light",
+        "uiTheme": "vs",
+        "path": "./themes/Bombyx-light.color-theme.json"
       }
     ]
   }
