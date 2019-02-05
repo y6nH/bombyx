@@ -10,7 +10,8 @@ It's based around five hue values: 43° (yellow / brown), 73° (green / olive), 
 
 ## Visual Studio Code
 
-![VSCode with Bombyx theme](vscode/bombyx-screenshot.png)
+![VSCode with Bombyx Dark theme](vscode/bombyx-dark-screenshot.png)
+![VSCode with Bombyx Light theme](vscode/bombyx-light-screenshot.png)
 
 Install from [Visual Studio Marketplace](https://marketplace.visualstudio.com/items?itemName=y6nH.bombyx).
 
