@@ -2,7 +2,7 @@
 
 ![25 of the Bombyx colors arranged in a square](bombyx.png)
 
-This is a color scheme I've been using and refining for a while. It's warm and muted, with harmonious jewel-like highlights.
+This is a dark color scheme I've been using and refining for a while, and a light variation thereon. It's warm and muted, with harmonious jewel-like highlights.
 
 Since it reminded me of antique silk embroidery, I named it after the genus of the silk moth, _Bombyx mori_.
 

@@ -234,7 +234,7 @@
     //"tab.activeBackground": "#272a2b",
     "tab.activeForeground": "#ebe8e0",
     "tab.activeModifiedBorder": "#669199",
-    //"tab.inactiveBackground": "#2d2d2d",
+    "tab.inactiveBackground": "#2d2d2d",
     "tab.inactiveForeground": "#d5cebe",
     "tab.inactiveModifiedBorder": "#446c74",
     //"tab.unfocusedActiveBorderTop": "#bce52a80",
