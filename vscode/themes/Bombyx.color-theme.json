@@ -804,7 +804,6 @@
         "foreground": "#e9ff99"
       }
     },
-
     {
       "name": "Comments",
       "scope": "comment, punctuation.definition.comment",
@@ -817,8 +816,20 @@
       "name": "Documentation comments",
       "scope": "comment.block.documentation",
       "settings": {
-        "foreground": "#c2baa8",
+        "foreground": "#B2B0AA",
         "fontStyle": "italic"
+      }
+    },
+    {
+      "name": "Documentation comment variables",
+      "scope": [
+        "punctuation.definition.block.tag.jsdoc",
+        "variable.other.jsdoc",
+        "storage.type.class.jsdoc"
+      ],
+      "settings": {
+        "foreground": "#c2baa8",
+        "fontStyle": "bold italic"
       }
     },
     {

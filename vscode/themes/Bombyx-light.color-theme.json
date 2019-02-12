@@ -718,7 +718,6 @@
         "foreground": "#e166b8"
       }
     },
-
     {
       "name": "Comments",
       "scope": "comment, punctuation.definition.comment",
@@ -733,6 +732,18 @@
       "settings": {
         "foreground": "#6C7577",
         "fontStyle": "italic"
+      }
+    },
+    {
+      "name": "Documentation comment variables",
+      "scope": [
+        "punctuation.definition.block.tag.jsdoc",
+        "variable.other.jsdoc",
+        "storage.type.class.jsdoc"
+      ],
+      "settings": {
+        "foreground": "#669199",
+        "fontStyle": "bold italic"
       }
     },
     {
