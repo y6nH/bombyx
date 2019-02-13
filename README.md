@@ -2,7 +2,7 @@
 
 ![25 of the Bombyx colors arranged in a square](resources/bombyx.svg)
 
-This is a color scheme I've been using and refining for a while. It's dark and warm, with harmonious jewel-like highlights.
+This is a dark color scheme I've been using and refining for a while, and a light variation. It's warm and muted, with harmonious jewel-like highlights.
 
 Since it reminded me of antique silk embroidery, I named it after the genus of the silk moth, _Bombyx mori_.
 
@@ -22,3 +22,7 @@ To install from source, make a new folder inside `~/.vscode/extensions/`, and co
 ![Powershell with Bombyx theme](resources/Powershell.png)
 
 To get the Windows CMD and Powershell windows styled with Bombyx colors, install [Concfg](https://github.com/lukesampson/concfg) and run `concfg import bombyx`. I like to use it with [Pshazz](https://github.com/lukesampson/pshazz) and the [Noto Mono for Powerline](https://github.com/powerline/fonts/tree/master/NotoMono) font.
+
+## Other shells, terminals, consoles and editors
+
+You can use [terminal.sexy](http://terminal.sexy/) to generate themes in various formats. Import the [xresources file](terminal.sexy/terminal.sexy.xresources.txt) and then export in the appropriate format.
