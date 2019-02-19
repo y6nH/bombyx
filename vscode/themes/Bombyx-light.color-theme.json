@@ -93,11 +93,10 @@
     "textLink.activeForeground": "#0b9ab6",
     "textLink.foreground": "#446c74",
     "textPreformat.foreground": "#769600",
-
-    "breadcrumb.activeSelectionForeground": "#769600",
+    "breadcrumb.activeSelectionForeground": "#0b9ab6",
     "editor.rangeHighlightBackground": "#ebe8e00b",
-    "editorOverviewRuler.addedForeground": "#e9ff9999",
-    "editorOverviewRuler.bracketMatchForeground": "#85457099",
+    "editorOverviewRuler.addedForeground": "#76960099",
+    "editorOverviewRuler.bracketMatchForeground": "#B2B0AA99",
     "editorOverviewRuler.commonContentForeground": "#77757066",
     "editorOverviewRuler.currentContentForeground": "#3bd8f799",
     "editorOverviewRuler.deletedForeground": "#94393F99",
@@ -110,25 +109,28 @@
     "editorOverviewRuler.selectionHighlightForeground": "#998b6699",
     "editorOverviewRuler.warningForeground": "#DE9F00",
     "editorOverviewRuler.wordHighlightForeground": "#85457099",
-    "editorOverviewRuler.wordHighlightStrongForeground": "#c0a0c099",
+    "editorOverviewRuler.wordHighlightStrongForeground": "#EAC9DFcc",
     "editorPane.background": "#fcfbf7",
-    "editorSuggestWidget.highlightForeground": "#3bd8f7",
-    "editorSuggestWidget.selectedBackground": "#446c74",
-    "editorWidget.background": "#3E3C38",
-    "editorWidget.border": "#1e1f19",
+    "editorHoverWidget.background": "#EEEDE9",
+    "editorHoverWidget.border": "#e2ddcf",
+    "editorSuggestWidget.background": "#EEEDE9",
+    "editorSuggestWidget.border": "#e2ddcf",
+    "editorSuggestWidget.highlightForeground": "#446c74",
+    "editorSuggestWidget.selectedBackground": "#b8f3ff",
+    "editorWidget.background": "#EEEDE9",
+    "editorWidget.border": "#e2ddcf",
     "errorForeground": "#C73842",
     "extensionButton.prominentBackground": "#769600",
     "extensionButton.prominentForeground": "#fcfbf7",
     "extensionButton.prominentHoverBackground": "#bce52a",
     "notifications.background": "#e2ddcf",
     "notifications.border": "#bce52a",
-
     "gitDecoration.addedResourceForeground": "#769600",
     "gitDecoration.conflictingResourceForeground": "#b34d91",
     "gitDecoration.deletedResourceForeground": "#E28187",
     "gitDecoration.ignoredResourceForeground": "#777570",
-    "gitDecoration.modifiedResourceForeground": "#DE9F00",
-    "gitDecoration.submoduleResourceForeground": "#446c74",
+    "gitDecoration.modifiedResourceForeground": "#446c74",
+    "gitDecoration.submoduleResourceForeground": "#669199",
     "gitDecoration.untrackedResourceForeground": "#597100",
     "gitlens.gutterUncommittedForegroundColor": "#769600",
     "peekView.border": "#0b9ab6",
@@ -146,10 +148,8 @@
     "statusBar.foreground": "#272a2b",
     "statusBar.noFolderBackground": "#CA7AAF",
     "statusBar.noFolderForeground": "#272a2b",
-    //"statusBarItem.prominentBackground": "#388a34",
-    //"statusBarItem.prominentHoverBackground": "#369432",
-    "tab.activeModifiedBorder": "#ffcb47",
-    "tab.inactiveModifiedBorder": "#ead59f",
+    "tab.activeModifiedBorder": "#0b9ab6",
+    "tab.inactiveModifiedBorder": "#b8f3ff",
     "tab.activeForeground": "#272a2b",
     "tab.inactiveForeground": "#777570",
     "tab.inactiveBackground": "#EEEDE9",
@@ -172,7 +172,8 @@
     "terminal.background": "#fcfbf7",
     "terminal.foreground": "#777570",
     "terminal.selectionBackground": "#446c7440",
-    "widget.shadow": "#998b6666",
+    "widget.shadow": "#998b6644",
+    "panel.background": "#ebe8e0",
     "listFilterWidget.background": "#EAC9DF",
     "listFilterWidget.outline": "#d38dbc",
     "listFilterWidget.noMatchesOutline": "#e166b8"
@@ -181,7 +182,7 @@
     {
       "scope": ["meta.embedded", "source.groovy.embedded"],
       "settings": {
-        "foreground": "#D4DEE1"
+        "foreground": "#998b66"
       }
     },
     {
@@ -293,7 +294,7 @@
         "entity.name.section.markdown"
       ],
       "settings": {
-        "fontStyle": "underline",
+        "fontStyle": "bold underline",
         "foreground": "#62542F"
       }
     },
@@ -315,8 +316,7 @@
       "name": "Markup code sections",
       "scope": "markup.inline.raw, markup.raw.inline, markup.block.raw, markup.raw.block, markup.fenced_code.block",
       "settings": {
-        "foreground": "#777570",
-        "background": "#E1DFDA"
+        "foreground": "#777570"
       }
     },
     {
@@ -715,8 +715,7 @@
       "name": "Text",
       "scope": "text, markup, source, meta",
       "settings": {
-        "foreground": "#272a2b",
-        "fontStyle": "bold"
+        "foreground": "#3E3C38"
       }
     },
     {

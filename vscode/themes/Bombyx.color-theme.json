@@ -131,7 +131,7 @@
     "editorOverviewRuler.addedForeground": "#e9ff9999",
     "editorOverviewRuler.bracketMatchForeground": "#ebe8e099",
     "editorOverviewRuler.commonContentForeground": "#77757066",
-    "editorOverviewRuler.currentContentForeground": "#3bd8f799",
+    "editorOverviewRuler.currentContentForeground": "#8e996699",
     "editorOverviewRuler.deletedForeground": "#94393F99",
     "editorOverviewRuler.errorForeground": "#C73842",
     "editorOverviewRuler.findMatchForeground": "#e166b899",
@@ -160,7 +160,7 @@
     "gitDecoration.conflictingResourceForeground": "#e166b8",
     "gitDecoration.deletedResourceForeground": "#E28187",
     "gitDecoration.ignoredResourceForeground": "#B2B0AA",
-    "gitDecoration.modifiedResourceForeground": "#ead59f",
+    "gitDecoration.modifiedResourceForeground": "#79b3be",
     "gitDecoration.submoduleResourceForeground": "#b8f3ff",
     "gitDecoration.untrackedResourceForeground": "#8e9966",
     //"gitlens.gutterBackgroundColor": "#ffffff13",
@@ -171,16 +171,8 @@
     //"gitlens.trailingLineBackgroundColor": "#00000000",
     //"gitlens.trailingLineForegroundColor": "#99999959",
     //"inputOption.activeBorder": "#007acc",
-    //"list.activeSelectionBackground": "#094771",
-    //"list.activeSelectionForeground": "#ffffff",
-    //"list.errorForeground": "#f88070",
-    //"list.focusBackground": "#062f4a",
     //"list.highlightForeground": "#0097fb",
-    //"list.hoverBackground": "#2a2d2e",
-    //"list.inactiveFocusBackground": "#313135",
-    //"list.inactiveSelectionBackground": "#37373d",
     //"list.invalidItemForeground": "#b89500",
-    //"list.warningForeground": "#4d9e4d",
     //"menubar.selectionBackground": "#ffffff1a",
     //"menubar.selectionForeground": "#cccccc",
     //"merge.commonContentBackground": "#60606029",
@@ -431,8 +423,7 @@
       "name": "Markup code sections",
       "scope": "markup.inline.raw, markup.raw.inline, markup.block.raw, markup.raw.block, markup.fenced_code.block",
       "settings": {
-        "foreground": "#d5cebe",
-        "background": "#1e1f19"
+        "foreground": "#d5cebe"
       }
     },
     {
