@@ -14,7 +14,7 @@
     "dropdown.background": "#E1DFDA",
     "dropdown.border": "#e2ddcf",
     "dropdown.listBackground": "#E1DFDA",
-    "editor.background": "#fcfbf7",
+    "editor.background": "#FFFEFA",
     "editor.findMatchBackground": "#EAC9DF",
     "editor.findMatchBorder": "#e166b8",
     "editor.findMatchHighlightBackground": "#b34d9166",
@@ -24,7 +24,7 @@
     "editor.foreground": "#272a2b",
     "editor.hoverHighlightBackground": "#ffcb4766",
     "editor.inactiveSelectionBackground": "#66919966",
-    "editor.lineHighlightBackground": "#EEEDE9",
+    "editor.lineHighlightBackground": "#fff",
     "editor.lineHighlightBorder": "#E1DFDA",
     "editor.selectionBackground": "#b8f3ff66",
     "editor.selectionForeground": "#1e1f19",
@@ -63,14 +63,14 @@
     "inputValidation.warningBackground": "#ffcb47",
     "inputValidation.warningBorder": "#DE9F00",
     "list.dropBackground": "#383b3d",
-    "list.activeSelectionBackground": "#fff",
-    "list.activeSelectionForeground": "#0b9ab6",
+    "list.activeSelectionBackground": "#0b9ab666",
+    "list.activeSelectionForeground": "#fff",
     "list.inactiveSelectionBackground": "#66919944",
     "list.errorForeground": "#C73842",
     "list.warningForeground": "#DE9F00",
     "list.focusBackground": "#b8f3ff66",
     "list.inactiveFocusBackground": "#b8f3ff44",
-    "list.hoverBackground": "#b8f3ff66",
+    "list.hoverBackground": "#0b9ab633",
     "menu.background": "#E1DFDA",
     "menu.foreground": "#272a2b",
     "menu.selectionBackground": "#79b3be",
@@ -215,12 +215,6 @@
       "scope": ["constant.numeric", "meta.delimiter.decimal"],
       "settings": {
         "foreground": "#0b9ab6"
-      }
-    },
-    {
-      "scope": "constant.regexp",
-      "settings": {
-        "foreground": "#854570"
       }
     },
     {
@@ -583,6 +577,33 @@
       }
     },
     {
+      "scope": "constant.character",
+      "settings": {
+        "foreground": "#bce52a"
+      }
+    },
+    {
+      "name": "Regular expression",
+      "scope": ["string.regexp", "meta.group.regexp", "constant.regexp"],
+      "settings": {
+        "foreground": "#769600"
+      }
+    },
+    {
+      "name": "Regular expression anchor",
+      "scope": ["keyword.control.anchor.regexp"],
+      "settings": {
+        "foreground": "#b34d91"
+      }
+    },
+    {
+      "name": "Regular expression quantifier",
+      "scope": "keyword.operator.quantifier.regexp",
+      "settings": {
+        "foreground": "#0b9ab6"
+      }
+    },
+    {
       "name": "Regular expression groups",
       "scope": [
         "punctuation.definition.group.regexp",
@@ -598,43 +619,82 @@
       }
     },
     {
+      "name": "Regular expression characters",
       "scope": [
+        "constant.other.character-class.range.regexp",
         "constant.character.character-class.regexp",
         "constant.other.character-class.set.regexp",
         "constant.other.character-class.regexp",
         "constant.character.set.regexp"
       ],
       "settings": {
-        "foreground": "#bce52a"
+        "foreground": "#98bf0e"
       }
     },
     {
-      "scope": ["keyword.operator.or.regexp", "keyword.control.anchor.regexp"],
+      "name": "Regular expression OR operator",
+      "scope": ["keyword.operator.or.regexp"],
+      "settings": {
+        "foreground": "#DE9F00"
+      }
+    },
+    {
+      "name": "Regular expression character numeric",
+      "scope": [
+        "constant.character.numeric.regexp"
+      ],
+      "settings": {
+        "foreground": "#769600"
+      }
+    },
+    {
+      "name": "Regular expression no-capture groups",
+      "scope": [
+        "punctuation.definition.group.no-capture.regexp"
+      ],
+      "settings": {
+        "foreground": "#A3AFB2"
+      }
+    },
+    {
+      "name": "Regular expression look-ahead/behind",
+      "scope": [
+        "meta.assertion.look-ahead.regexp",
+        "meta.assertion.negative-look-ahead.regexp",
+        "meta.assertion.look-behind.regexp",
+        "meta.assertion.negative-look-behind.regexp"
+      ],
+      "settings": {
+        "foreground": "#E28187"
+      }
+    },
+    {
+      "name": "Regular expression back-reference",
+      "scope": [
+        "keyword.other.back-reference.regexp"
+      ],
+      "settings": {
+        "foreground": "#e166b8"
+      }
+    },
+    {
+      "name": "Regular expression character set negation",
+      "scope": [
+        "keyword.operator.negation.regexp"
+      ],
+      "settings": {
+        "foreground": "#DE9F00"
+      }
+    },
+    {
+      "name": "Regular expression assertion groups",
+      "scope": [
+        "meta.group.assertion.regexp",
+      ],
       "settings": {
         "foreground": "#998b66"
       }
     },
-    {
-      "scope": "constant.character",
-      "settings": {
-        "foreground": "#bce52a"
-      }
-    },
-    {
-      "name": "Regular expression",
-      "scope": "string.regexp",
-      "settings": {
-        "foreground": "#B83840"
-      }
-    },
-    {
-      "name": "Regular expression quantifier",
-      "scope": "keyword.operator.quantifier.regexp",
-      "settings": {
-        "foreground": "#0b9ab6"
-      }
-    },
-
     {
       "name": "Info",
       "scope": "token.info-token",
@@ -663,7 +723,6 @@
         "foreground": "#769600"
       }
     },
-
     {
       "scope": "string",
       "settings": {
