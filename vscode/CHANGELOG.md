@@ -1,9 +1,15 @@
 # Change Log
 
+## [0.4.0]
+
+- Merge highlighting colours added.
+- Indent guides in light theme made lighter.
+- Some other small improvements.
+
 ## [0.3.3]
 
 - Regular expression colors improved.
-- Workbench colors for light theme tweaked
+- Workbench colors for light theme tweaked.
 
 ## [0.3.2]
 
