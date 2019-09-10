@@ -41,8 +41,8 @@
     "editorCursor.foreground": "#3e3c38",
     "editorError.foreground": "#B83840",
     "editorGroup.border": "#e2ddcf",
-    "editorIndentGuide.activeBackground": "#669199",
-    "editorIndentGuide.background": "#79b3be",
+    "editorIndentGuide.activeBackground": "#79b3be",
+    "editorIndentGuide.background": "#D4DEE1",
     "editorInfo.foreground": "#669199",
     "editorLineNumber.activeForeground": "#669199",
     "editorLineNumber.foreground": "#79b3be",
@@ -640,18 +640,14 @@
     },
     {
       "name": "Regular expression character numeric",
-      "scope": [
-        "constant.character.numeric.regexp"
-      ],
+      "scope": ["constant.character.numeric.regexp"],
       "settings": {
         "foreground": "#769600"
       }
     },
     {
       "name": "Regular expression no-capture groups",
-      "scope": [
-        "punctuation.definition.group.no-capture.regexp"
-      ],
+      "scope": ["punctuation.definition.group.no-capture.regexp"],
       "settings": {
         "foreground": "#A3AFB2"
       }
@@ -670,27 +666,21 @@
     },
     {
       "name": "Regular expression back-reference",
-      "scope": [
-        "keyword.other.back-reference.regexp"
-      ],
+      "scope": ["keyword.other.back-reference.regexp"],
       "settings": {
         "foreground": "#e166b8"
       }
     },
     {
       "name": "Regular expression character set negation",
-      "scope": [
-        "keyword.operator.negation.regexp"
-      ],
+      "scope": ["keyword.operator.negation.regexp"],
       "settings": {
         "foreground": "#DE9F00"
       }
     },
     {
       "name": "Regular expression assertion groups",
-      "scope": [
-        "meta.group.assertion.regexp",
-      ],
+      "scope": ["meta.group.assertion.regexp"],
       "settings": {
         "foreground": "#94393F"
       }
