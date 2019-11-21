@@ -2,6 +2,7 @@
   "name": "Bombyx Light",
   "type": "light",
   "colors": {
+    "activityBar.activeBorder": "#97C100",
     "activityBar.background": "#e2ddcf",
     "activityBar.foreground": "#272a2b",
     "activityBarBadge.background": "#E28187",
@@ -15,7 +16,7 @@
     "dropdown.border": "#e2ddcf",
     "dropdown.listBackground": "#E1DFDA",
     "editor.background": "#FFFEFA",
-    "editor.findMatchBackground": "#EAC9DF",
+    "editor.findMatchBackground": "#d38dbc55",
     "editor.findMatchBorder": "#e166b8",
     "editor.findMatchHighlightBackground": "#b34d9166",
     "editor.findMatchHighlightBorder": "#b34d91aa",
@@ -25,7 +26,7 @@
     "editor.hoverHighlightBackground": "#ffcb4766",
     "editor.inactiveSelectionBackground": "#66919966",
     "editor.lineHighlightBackground": "#fff",
-    "editor.lineHighlightBorder": "#E1DFDA",
+    "editor.lineHighlightBorder": "#b8f3ff44",
     "editor.selectionBackground": "#b8f3ff66",
     "editor.selectionForeground": "#1e1f19",
     "editor.selectionHighlightBackground": "#ffcb4766",
@@ -46,11 +47,12 @@
     "editorInfo.foreground": "#669199",
     "editorLineNumber.activeForeground": "#669199",
     "editorLineNumber.foreground": "#79b3be",
+    "editorLink.activeForeground": "#0b9ab6",
     "editorOverviewRuler.border": "#e2ddcf",
     "editorRuler.foreground": "#79b3be",
     "editorWarning.foreground": "#DE9F00",
     "editorWhitespace.foreground": "#79b3be",
-    "focusBorder": "#729200",
+    "focusBorder": "#97C100",
     "foreground": "#272a2b",
     "input.background": "#E1DFDA",
     "input.border": "#e2ddcf",
@@ -76,6 +78,8 @@
     "menu.selectionBackground": "#79b3be",
     "menu.selectionForeground": "#1e1f19",
     "menu.separatorBackground": "#777570",
+    "minimap.findMatchHighlight": "#d38dbc88",
+    "minimap.selectionHighlight": "#b8f3ff88",
     "progressBar.background": "#b8f3ff",
     "scrollbar.shadow": "#998b6666",
     "scrollbarSlider.activeBackground": "#66919966",
@@ -87,7 +91,7 @@
     "sideBar.border": "#e2ddcf",
     "sideBarSectionHeader.background": "#e2ddcf",
     "sideBarTitle.foreground": "#272a2b",
-    "tab.activeBorderTop": "#729200",
+    "tab.activeBorderTop": "#97C100",
     "tab.border": "#e2ddcf",
     "textCodeBlock.background": "#E1DFDA",
     "textLink.activeForeground": "#0b9ab6",
@@ -397,7 +401,7 @@
         "punctuation.definition.string"
       ],
       "settings": {
-        "foreground": "#729200"
+        "foreground": "#97C100"
       }
     },
 
@@ -782,7 +786,7 @@
       "name": "Comments",
       "scope": "comment, punctuation.definition.comment",
       "settings": {
-        "foreground": "#8e9966",
+        "foreground": "#ADB58F",
         "fontStyle": "italic"
       }
     },
@@ -981,7 +985,7 @@
     {
       "name": "Property names",
       "scope": "support.type.property-name, meta.object-literal.key",
-      "settings": { "foreground": "#7b8654" }
+      "settings": { "foreground": "#7E9139" }
     },
     {
       "name": "Attributes",
@@ -1004,7 +1008,6 @@
         "foreground": "#C73842"
       }
     },
-
     {
       "name": "Mathematical symbols (SCSS)",
       "scope": "support.constant.mathematical-symbols",
@@ -1033,5 +1036,17 @@
         "foreground": "#446c74"
       }
     }
-  ]
+  ],
+  "bracket-pair-colorizer-2.colors":
+  [
+    "#777570",
+    "#6C7577",
+    "#A3AFB2",
+    "#c2baa8"
+  ],
+  "todo-tree.highlights.defaultHighlight": {
+    "foreground": "#fff",
+    "background": "#ADB58F",
+    "rulerColour": "#ADB58F"
+  }
 }

@@ -2,6 +2,7 @@
   "name": "Bombyx",
   "type": "dark",
   "colors": {
+    "activityBar.activeBorder": "#bce52a",
     "activityBar.background": "#3e3c38",
     "activityBar.foreground": "#ebe8e0",
     "activityBarBadge.background": "#c73842",
@@ -76,6 +77,8 @@
     "menu.selectionBackground": "#446c74",
     "menu.selectionForeground": "#ebe8e0",
     "menu.separatorBackground": "#B2B0AA",
+    "minimap.findMatchHighlight": "#d38dbc88",
+    "minimap.selectionHighlight": "#1e1f1966",
     "progressBar.background": "#446c74",
     "scrollbar.shadow": "#08101280",
     "scrollbarSlider.activeBackground": "#998b6666",
@@ -123,7 +126,7 @@
     //"editorHint.foreground": "#eeeeeeb3",
     //"editorHoverWidget.background": "#252526",
     //"editorHoverWidget.border": "#454545",
-    //"editorLink.activeForeground": "#4e94ce",
+    "editorLink.activeForeground": "#3bd8f7",
     //"editorMarkerNavigation.background": "#2d2d30",
     //"editorMarkerNavigationError.background": "#c73842",
     //"editorMarkerNavigationInfo.background": "#669199",
@@ -499,7 +502,6 @@
     {
       "scope": [
         "support.type.vendored.property-name",
-        "support.type.property-name",
         "variable.css",
         "variable.scss",
         "variable.other.less",
@@ -1140,5 +1142,17 @@
         "foreground": "#b8f3ff"
       }
     }
-  ]
+  ],
+  "bracket-pair-colorizer-2.colors":
+  [
+    "#d5cebe",
+    "#c2baa8",
+    "#b2b0aa",
+    "#998b66"
+  ],
+  "todo-tree.highlights.defaultHighlight": {
+    "foreground": "#1e1f19",
+    "background": "#FFB8BD",
+    "rulerColour": "#FFB8BD"
+  }
 }

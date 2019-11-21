@@ -1,5 +1,11 @@
 # Change Log
 
+## [0.4.1]
+
+- New `activityBar.activeBorder` property added.
+- Colours for the bracket-pair-colorizer-2 and todo-tree extensions.
+- Various improvements to highlighting and text.
+
 ## [0.4.0]
 
 - Merge highlighting colours added.
