@@ -16,12 +16,13 @@
     "dropdown.border": "#e2ddcf",
     "dropdown.listBackground": "#E1DFDA",
     "editor.background": "#FFFEFA",
-    "editor.findMatchBackground": "#d38dbc55",
+    "editor.findMatchBackground": "#d38dbc22",
     "editor.findMatchBorder": "#e166b8",
-    "editor.findMatchHighlightBackground": "#b34d9166",
+    "editor.findMatchHighlightBackground": "#b34d9122",
     "editor.findMatchHighlightBorder": "#b34d91aa",
     "editor.findRangeHighlightBackground": "#b8f3ff44",
     "editor.findRangeHighlightBorder": "#b8f3ff88",
+    "editor.foldBackground": "#3e3c3811",
     "editor.foreground": "#272a2b",
     "editor.hoverHighlightBackground": "#ffcb4766",
     "editor.inactiveSelectionBackground": "#66919966",
@@ -374,12 +375,6 @@
       }
     },
     {
-      "scope": "meta.structure.dictionary.key.python",
-      "settings": {
-        "foreground": "#597100"
-      }
-    },
-    {
       "scope": ["storage", "storage.modifier"],
       "settings": {
         "foreground": "#446c74"
@@ -454,6 +449,7 @@
       }
     },
     {
+      "name": "new keyword",
       "scope": ["keyword.operator.new"],
       "settings": {
         "foreground": "#446c74"
@@ -516,13 +512,11 @@
       }
     },
     {
-      "name": "Types declaration and references",
+      "name": "Types",
       "scope": [
         "meta.return-type",
-        "support.class",
         "support.type",
         "entity.name.type",
-        "entity.name.class",
         "storage.type.numeric.go",
         "storage.type.byte.go",
         "storage.type.boolean.go",
@@ -584,16 +578,20 @@
       }
     },
     {
-      "name": "Object keys, TS grammar specific",
-      "scope": ["meta.object-literal.key"],
-      "settings": {
-        "foreground": "#597100"
-      }
-    },
-    {
       "scope": "constant.character",
       "settings": {
         "foreground": "#bce52a"
+      }
+    },
+    {
+      "name": "Property keys",
+      "scope": [
+        "support.type.property-name",
+        "meta.object-literal.key",
+        "meta.structure.dictionary.key.python"
+      ],
+      "settings": {
+        "foreground": "#597100"
       }
     },
     {
@@ -740,24 +738,6 @@
       }
     },
     {
-      "scope": "constant.numeric",
-      "settings": {
-        "foreground": "#0b9ab6"
-      }
-    },
-    {
-      "scope": ["entity.name.type", "support.type"],
-      "settings": {
-        "foreground": "#62542F"
-      }
-    },
-    {
-      "scope": ["entity.name.class", "support.class"],
-      "settings": {
-        "foreground": "#62542F"
-      }
-    },
-    {
       "scope": [
         "entity.name.function",
         "support.function",
@@ -818,13 +798,6 @@
       }
     },
     {
-      "name": "new",
-      "scope": "keyword.operator.new",
-      "settings": {
-        "foreground": "#446c74"
-      }
-    },
-    {
       "name": "Built-in framework constants",
       "scope": "support.constant, support.class.builtin, support.constant.math, support.constant.property-value, support.constant.font-name",
       "settings": {
@@ -848,7 +821,7 @@
     },
     {
       "name": "Class name",
-      "scope": "entity.name, entity.name.type, entity.name.class, entity.other.inherited-class, support.class",
+      "scope": "entity.name, entity.name.class, entity.other.inherited-class, support.class",
       "settings": {
         "foreground": "#E28187"
       }
@@ -1037,8 +1010,7 @@
       }
     }
   ],
-  "bracket-pair-colorizer-2.colors":
-  [
+  "bracket-pair-colorizer-2.colors": [
     "#777570",
     "#6C7577",
     "#A3AFB2",

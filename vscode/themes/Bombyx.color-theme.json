@@ -22,6 +22,7 @@
     "editor.findMatchHighlightBorder": "#b34d9166",
     "editor.findRangeHighlightBackground": "#446c7444",
     "editor.findRangeHighlightBorder": "#446c7444",
+    "editor.foldBackground": "#3e3c38aa",
     "editor.foreground": "#ebe8e0",
     "editor.hoverHighlightBackground": "#998b6666",
     "editor.inactiveSelectionBackground": "#66919966",
@@ -317,13 +318,8 @@
       }
     },
     {
-      "scope": "entity.other.attribute-name",
-      "settings": {
-        "foreground": "#d3e0a4"
-      }
-    },
-    {
       "scope": [
+        "entity.other.attribute-name",
         "entity.other.attribute-name.class.mixin.css",
         "entity.other.attribute-name.parent-selector.css",
         "entity.other.attribute-name.attribute.scss",
@@ -450,12 +446,6 @@
       }
     },
     {
-      "scope": "meta.structure.dictionary.key.python",
-      "settings": {
-        "foreground": "#d3e0a4"
-      }
-    },
-    {
       "scope": ["storage", "storage.modifier"],
       "settings": {
         "foreground": "#b8f3ff"
@@ -529,6 +519,7 @@
       }
     },
     {
+      "name": "new keyword",
       "scope": ["keyword.operator.new"],
       "settings": {
         "foreground": "#b8f3ff"
@@ -594,10 +585,8 @@
       "name": "Types declaration and references",
       "scope": [
         "meta.return-type",
-        "support.class",
         "support.type",
         "entity.name.type",
-        "entity.name.class",
         "storage.type.numeric.go",
         "storage.type.byte.go",
         "storage.type.boolean.go",
@@ -657,15 +646,20 @@
       "settings": {
         "foreground": "#d5cebe"
       }
-    },    {
+    },
+    {
       "scope": ["constant.character"],
       "settings": {
         "foreground": "#e9ff99"
       }
     },
     {
-      "name": "Object keys, TS grammar specific",
-      "scope": ["meta.object-literal.key"],
+      "name": "Property keys",
+      "scope": [
+        "support.type.property-name",
+        "meta.object-literal.key",
+        "meta.structure.dictionary.key.python"
+      ],
       "settings": {
         "foreground": "#d3e0a4"
       }
@@ -712,7 +706,7 @@
       "settings": {
         "foreground": "#ffcb47"
       }
-    }, 
+    },
     {
       "name": "Regular expression characters",
       "scope": [
@@ -728,18 +722,14 @@
     },
     {
       "name": "Regular expression character numeric",
-      "scope": [
-        "constant.character.numeric.regexp"
-      ],
+      "scope": ["constant.character.numeric.regexp"],
       "settings": {
         "foreground": "#d3e0a4"
       }
     },
     {
       "name": "Regular expression no-capture groups",
-      "scope": [
-        "punctuation.definition.group.no-capture.regexp"
-      ],
+      "scope": ["punctuation.definition.group.no-capture.regexp"],
       "settings": {
         "foreground": "#B2B0AA"
       }
@@ -758,27 +748,21 @@
     },
     {
       "name": "Regular expression back-reference",
-      "scope": [
-        "keyword.other.back-reference.regexp"
-      ],
+      "scope": ["keyword.other.back-reference.regexp"],
       "settings": {
         "foreground": "#e166b8"
       }
     },
     {
       "name": "Regular expression character set negation",
-      "scope": [
-        "keyword.operator.negation.regexp"
-      ],
+      "scope": ["keyword.operator.negation.regexp"],
       "settings": {
         "foreground": "#ffcb47"
       }
     },
     {
       "name": "Regular expression assertion groups",
-      "scope": [
-        "meta.group.assertion.regexp",
-      ],
+      "scope": ["meta.group.assertion.regexp"],
       "settings": {
         "foreground": "#FFB8BD"
       }
@@ -824,25 +808,11 @@
       }
     },
     {
-      "scope": "constant.numeric",
-      "settings": {
-        "foreground": "#3bd8f7"
-      }
-    },
-    {
-      "scope": ["entity.name.type", "support.type"],
-      "settings": {
-        "foreground": "#ead59f"
-      }
-    },
-    {
-      "scope": ["entity.name.class", "support.class"],
-      "settings": {
-        "foreground": "#ead59f"
-      }
-    },
-    {
-      "scope": ["entity.name.function", "support.function"],
+      "scope": [
+        "entity.name.function", 
+        "support.function",
+        "meta.decorator",
+        "meta.decorator.ts"],
       "settings": {
         "foreground": "#E28187"
       }
@@ -897,13 +867,6 @@
       }
     },
     {
-      "name": "new",
-      "scope": "keyword.operator.new",
-      "settings": {
-        "foreground": "#b8f3ff"
-      }
-    },
-    {
       "name": "Built-in framework constants",
       "scope": "support.constant, support.class.builtin, support.constant.math, support.constant.property-value, support.constant.font-name",
       "settings": {
@@ -927,7 +890,7 @@
     },
     {
       "name": "Class name",
-      "scope": "entity.name, entity.name.type, entity.name.class, entity.other.inherited-class, support.class",
+      "scope": "entity.name, entity.name.class, entity.other.inherited-class, support.class",
       "settings": {
         "foreground": "#FFB8BD"
       }
@@ -1086,13 +1049,6 @@
       }
     },
     {
-      "name": "Property names",
-      "scope": "support.type.property-name, meta.object-literal.key",
-      "settings": {
-        "foreground": "#d3e0a4"
-      }
-    },
-    {
       "name": "Attributes",
       "scope": "meta.attribute",
       "settings": {
@@ -1143,8 +1099,7 @@
       }
     }
   ],
-  "bracket-pair-colorizer-2.colors":
-  [
+  "bracket-pair-colorizer-2.colors": [
     "#d5cebe",
     "#c2baa8",
     "#b2b0aa",
